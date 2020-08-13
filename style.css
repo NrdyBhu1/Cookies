@@ -1,0 +1,60 @@
+*{
+    margin: auto;
+    padding: 0%;
+}
+
+#main-header{
+    color: blueviolet;
+    font-family: fantasy;
+    text-align: center;
+    font-size: 50px;
+}
+
+#main-header2{
+    color: rgb(104, 98, 7);
+    font-family: fantasy;
+    text-align: center;
+    font-size: 50px;
+    position: absolute;
+    left: 27%;
+    top: 25%;
+}
+
+#box{
+    background-color: #485cf05e;
+    width: 800px;
+    height: 400px;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 80px;
+}
+
+#submit-btn, #main-input, #show{
+    position: relative;
+    top: 50%;
+    height: 50px;
+    text-align: center;
+    font-size: 30px;
+}
+
+#main-input{
+    width: 500px;
+    background: none;
+    border: 5px solid springgreen;
+    border-radius: 24px;
+    margin: 10px;
+}
+
+#submit-btn{
+    width:150px;
+}
+
+#show{
+    width:200px;
+}
+
+body{
+    background-image: url("https://i1.pickpik.com/photos/79/868/1015/man-dark-gloomy-mood-preview.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
