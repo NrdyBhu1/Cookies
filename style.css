@@ -45,6 +45,10 @@
     margin: 10px;
 }
 
+#main-input:focus{
+    color: white;
+}
+
 #submit-btn{
     width:150px;
 }
