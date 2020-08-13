@@ -1,7 +1,7 @@
 function cookieIt(){
     var input = document.querySelector("input");
-    document.cookie = "input:" + input.value.toString();
-    alert("Submitted")
+    document.cookie = "input:" + input.value.toString() + ";";
+    // alert("Submitted")
     input.value = "";
 }
 
