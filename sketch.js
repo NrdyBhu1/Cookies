@@ -9,12 +9,11 @@ function cookieIt(){
 function showCookie(){
     // alert(document.cookie.toString());
     var cok = document.querySelector("#cookie");
-    // cok.textContent = document.cookie;
     cok.classList.add("active");
-    setTimeout(hideCookie(), 5);
+    cok.textContent = document.cookie;
+    setTimeout(hideCookie, 2500);
 }
 
 function hideCookie(){
-    var cok = document.querySelector("#cookie");
-    cok.classList.remove("active");
+    document.querySelector("#cookie").classList.remove("active");
 }
