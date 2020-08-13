@@ -1,6 +1,7 @@
 function cookieIt(){
     var input = document.querySelector("input");
-    document.cookie = "input:" + input.value.toString() + ";";
+    document.cookie = "input=" + input.value.toString() + ";";
+    document.cookie.anchor("name");
     // alert("Submitted")
     input.value = "";
 }
