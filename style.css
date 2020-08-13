@@ -11,7 +11,7 @@
 }
 
 #main-header2{
-    color: rgb(104, 98, 7);
+    color: rgb(57, 255, 7);
     font-family: fantasy;
     text-align: center;
     font-size: 50px;
@@ -40,14 +40,31 @@
 #main-input{
     width: 500px;
     background: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border: 5px solid springgreen;
     border-radius: 24px;
     margin: 10px;
 }
 
+#cookie{
+    color: rgb(204, 0, 255);
+    font-family: fantasy;
+    text-align: center;
+    font-size: 50px;
+    position: absolute;
+    top: 37%;
+    left: 35%;
+    visibility: hidden;
+}
+
+#cookie.active{
+    visibility: visible;
+}
+
 #main-input:focus{
     color: white;
 }
+
 
 #submit-btn{
     width:150px;
@@ -55,6 +72,13 @@
 
 #show{
     width:200px;
+    position: relative;
+    top: 55%;
+    left: -5%;
+}
+
+#submit-btn:hover, #show:hover{
+    background-color: aqua;
 }
 
 body{

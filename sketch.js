@@ -7,5 +7,14 @@ function cookieIt(){
 }
 
 function showCookie(){
-    alert(document.cookie.toString());
+    // alert(document.cookie.toString());
+    var cok = document.querySelector("#cookie");
+    // cok.textContent = document.cookie;
+    cok.classList.add("active");
+    setTimeout(hideCookie(), 5);
+}
+
+function hideCookie(){
+    var cok = document.querySelector("#cookie");
+    cok.classList.remove("active");
 }
